@@ -1,0 +1,106 @@
+.box{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+}
+
+.littlebox{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.first{
+    flex: 1 1 auto;
+    border: solid gray 1px;
+}
+
+.second{
+    flex: 1 1 auto;
+    border: solid gray 1px;
+    border-left-style: none;
+    border-right-style: none;
+    
+}
+
+.third{
+    flex: 1 1 auto;
+    border: solid gray 1px;
+    border-right-style: none;
+}
+
+.fourth{
+    flex: 1 1 auto;
+    border: solid gray 1px;
+}
+
+p.fontcolor{
+    color: gray;
+    opacity: 0.8;
+}
+
+
+
+a:visited{
+    color: dimgray;
+}
+a:hover{
+    color:gold;
+}
+
+.contact{
+    width: auto;
+    height: 30%;
+}
+
+.graybox{
+    flex: 1 1 auto;
+    background-color: rgba(219, 219, 219, 0.931);
+    font-size:medium;
+}
+
+.videbox {
+    flex:1 1 auto;
+    border: solid lightgray 1px;
+}
+
+.bord{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.submit{
+    width: 70px;
+    height: 35px;
+    color:white;
+    background-color: black;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border: solid 1px;
+    
+}
+
+.submit:hover{
+    background-color:white;
+    color: black;
+}
+
+.blackpage{
+    height: auto;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+
+
+.center{
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
